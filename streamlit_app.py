@@ -76,7 +76,7 @@ with tab1:
     def counts_plot(y_var, col):
         # Generate counts and percentages
         y_var_counts = (
-            train_data[y_var]
+            train_data[y_var].dropna()
             .value_counts()
             .reset_index()
             .rename(columns={"index": y_var, y_var: "counts"})
