@@ -70,7 +70,6 @@ test_data['y'] = np.where(test_data['y'] == 'no', 0,1)
 with tab1:
     # Function to generate counts and bar plots for a given column
     def counts_plot(y_var, col):
-        df_["counts"] = pd.to_numeric(df_["counts"], errors='coerce')
         # Generate counts and percentages
         y_var_counts = (
             train_data[y_var]
