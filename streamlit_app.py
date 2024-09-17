@@ -2,7 +2,6 @@
 
 # +
 import numpy as np
-import scipy as sp
 import pandas as pd
 import streamlit as st
 import plotly.express as px
