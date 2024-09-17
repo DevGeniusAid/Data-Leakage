@@ -9,5 +9,5 @@ IPython
 streamlit-folium
 streamlit-navigation-bar
 scikit-learn
-imbalanced-learn
+
 
