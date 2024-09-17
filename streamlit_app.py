@@ -10,9 +10,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-from IPython.display import display
-from streamlit_folium import st_folium
-from streamlit_navigation_bar import st_navbar
 from plotly.offline import init_notebook_mode
 init_notebook_mode(connected=True)
 from plotly.subplots import make_subplots
